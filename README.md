@@ -2,7 +2,6 @@
 
 基于 Neo4j 图数据库的 HotpotQA 多跳问答数据集可视化与分析平台，支持图数据可视化、多跳路径查询、全文检索、聚类分析和 Cypher 查询控制台。
 
-[English](#english-version) | [中文](#项目简介)
 
 ---
 
@@ -256,7 +255,7 @@ jobs:
 ## 项目结构
 
 ```
-neo4j-hotpotqa/
+NeoPotVis/
 ├── app/                          # 前端 (React + Vite)
 │   ├── src/
 │   │   ├── components/           # 可视化组件
@@ -300,21 +299,6 @@ neo4j-hotpotqa/
 
 ## 常见问题
 
-### Q: 前端启动报错 `crypto.hash is not a function`
-
-Node.js 18 不兼容 Vite 7，需要降级 Vite：
-
-```json
-// package.json
-"vite": "^5.4.0"
-"@vitejs/plugin-react": "^4.3.0"
-```
-
-然后删除 `node_modules` 和 `package-lock.json` 重新安装。
-
-### Q: 导入时 `FOREACH` 中不能使用 `MATCH`
-
-`import_neo4j_rapid.py` v3.2+ 已修复，将 FOREACH 中的 MATCH 拆分为独立查询。
 
 ### Q: 如何切换前端数据源（API / 本地 JSON）？
 
@@ -349,6 +333,5 @@ MIT
 
 ## 致谢
 
-- [HotpotQA Dataset](https://huggingface.co/datasets/hotpotqa/hotpot_qa)
 - [Neo4j](https://neo4j.com/)
 - [Cytoscape.js](https://js.cytoscape.org/)
