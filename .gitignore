@@ -1,0 +1,114 @@
+# -------------------- Python 相关 --------------------
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv
+.env
+
+# 打包和分发文件
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pycache__/
+
+# 测试和覆盖率报告
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# 日志和数据库文件
+*.log
+*.sqlite3
+*.db
+
+# -------------------- PyCharm 相关 --------------------
+# IDE 配置文件夹
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# 用户特定配置
+.vscode/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+# PyCharm 调试器配置
+.idea/deployment.xml
+.idea/runConfigurations/
+
+# -------------------- 系统文件 --------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# -------------------- 敏感信息 --------------------
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 配置文件中的敏感信息
+config.ini
+secrets.json
+*.key
+*.pem
+*.crt
+
+# -------------------- 其他常见文件 --------------------
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 备份文件
+*.bak
+*.backup
+
+# 压缩文件（通常不提交源码压缩包）
+*.zip
+*.tar.gz
+*.rar
+
+# 编译产物
+*.pyc
+*.class
