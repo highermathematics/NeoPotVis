@@ -64,6 +64,8 @@ pip install -r requirements.txt
 
 ### 3. 导入数据到 Neo4j
 
+下载数据集：[hotpot_qa](https://huggingface.co/datasets/hotpotqa/hotpot_qa)
+
 提供 4 种导入方式，根据你的环境和需求选择：
 
 #### 方式 A：极速 Python 导入（推荐一般场景）
